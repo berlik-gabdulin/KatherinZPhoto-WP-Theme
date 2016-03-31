@@ -1,0 +1,92 @@
+body {
+  color: #222222;
+  letter-spacing: 1px; }
+
+a {
+  color: #2ea2cc; }
+
+p,
+.main-footer {
+  color: #888888; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888888; }
+
+.color-element {
+  color: #2ea2cc; }
+
+.color-bg {
+  background-color: #2ea2cc; }
+
+.color-border {
+  border-color: #2ea2cc; }
+
+.bg-light {
+  background-color: #fafafa; }
+
+.bg-dark {
+  background-color: #222222;
+  color: white; }
+  .bg-dark h2,
+  .bg-dark .s-descr {
+    color: white; }
+    .bg-dark h2::after,
+    .bg-dark .s-descr::after {
+      background-color: white; }
+  .bg-dark a {
+    color: white; }
+
+.logo-container path {
+  fill: #222222; }
+
+.top-mnu li a:hover {
+  color: #2ea2cc;
+  background-color: rgba(255, 255, 255, 0.04); }
+
+.s-descr {
+  color: #222222;
+  letter-spacing: 4px; }
+  .s-descr::after {
+    background-color: #222222; }
+
+.aboutme p:nth-child(2n) {
+  color: #2ea2cc; }
+
+.persinfo li {
+  color: #888888; }
+  .persinfo li a {
+    color: #2ea2cc; }
+
+.resume-container h3 {
+  color: #222222; }
+
+.resume-item .year {
+  background-color: #2ea2cc; }
+
+.s-portfolio li {
+  color: #888888; }
+  .s-portfolio li.active {
+    border-bottom: 1px solid #2ea2cc; }
+.s-portfolio .port-item-cont .port-item-wrap a {
+  border-color: #2ea2cc;
+  color: #2ea2cc; }
+  .s-portfolio .port-item-cont .port-item-wrap a:hover {
+    background: #2ea2cc;
+    color: white; }
+
+.contact-icon {
+  color: #2ea2cc; }
+
+.main-form input:focus,
+.main-form textarea:focus {
+  border: 1px solid #2ea2cc; }
+.main-form button {
+  background-color: #2ea2cc; }
+.main-form .text-danger {
+  color: #2ea2cc; }
+
+footer .social-wrap i:hover {
+  color: #2ea2cc; }
+
+/*# sourceMappingURL=blue.css.map */

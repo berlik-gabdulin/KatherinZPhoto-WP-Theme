@@ -1,0 +1,119 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	section {
+		padding: 30px 0 40px;
+	}
+	.resume-container .work h3,
+	.resume-container .work {
+		text-align: left;
+	}
+	section .s-descr {
+		margin-bottom: 100px;
+	}
+	.s-about .aboutme {
+		margin-bottom: 20px;
+	}
+	.resume-container h3 {
+		margin-top: 0;
+	}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top-wrapper .top-text h1 {
+		margin: 0 10px;
+		padding: 10px;
+		font-size: 1.2em;
+	}
+	.aboutme {
+		margin-bottom: 40px;
+	}
+	.social-wrap ul {
+		text-align: center;
+	}
+	.portfolio-item {
+		/*margin: 0 auto;*/
+		/*float: none !important;*/
+	}
+	footer .copyright {
+		text-align: center;
+	}
+	footer .social-wrap {
+		margin-top: 25px;
+		text-align: center;
+	}
+	footer .social-wrap li {
+		font-size: 28px;
+		line-height: normal;
+	}
+	/*footer .social-wrap*/
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.portfolio-item {
+		/*width: 100%;*/
+		/*max-width: none;*/
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

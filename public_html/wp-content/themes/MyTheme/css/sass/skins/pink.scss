@@ -1,0 +1,159 @@
+@import "../bourbon/bourbon";
+
+$color: #d60270;
+$text_color: #888888;
+$main_color: #222222;
+$bg_light: #fafafa;
+
+@mixin kerning($kerning) {
+  letter-spacing: $kerning + px;
+}
+
+body {
+  color: $main_color;
+  @include kerning(1);
+}
+
+a {
+  color: $color;
+}
+
+p,
+.main-footer {
+  color: $text_color;
+}
+
+section {
+  h3 {
+    @include kerning(3);
+    color: $text_color;
+  }
+}
+
+.color-element {
+  color: $color;
+}
+
+.color-bg {
+  background-color: $color;
+}
+
+.color-border {
+  border-color: $color;
+}
+
+.bg-light {
+  background-color: $bg_light;
+}
+
+.bg-dark {
+  background-color: $main_color;
+  color: white;
+  h2,
+  .s-descr {
+    color: white;
+    &::after {
+      background-color: white;
+    }
+  }
+  a {
+    color: white;
+  }
+}
+
+.logo-container {
+  path {
+    fill: $main_color;
+  }
+}
+
+.top-mnu li a:hover {
+  color: $color;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.s-descr {
+  color: $main_color;
+  @include kerning(4);
+  &::after {
+    background-color: $main_color;
+  }
+}
+
+.aboutme {
+  p:nth-child(2n) {
+    color: $color;
+  }
+  p:last-child {}
+}
+
+.persinfo {
+  li {
+    color: $text_color;
+    a {
+      color: $color;
+    }
+  }
+}
+
+.resume-container {
+  h3 {
+    color: $main_color;
+  }
+}
+
+.resume-item {
+  .year {
+    background-color: $color;
+  }
+}
+
+.s-portfolio {
+  li {
+    color: $text_color;
+    &.active {
+      border-bottom: 1px solid $color;
+    }
+  }
+  .port-item-cont {
+    .port-item-wrap {
+      a {
+        border-color: $color;
+        color: $color;
+        &:hover {
+          background: $color;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.contact-icon {
+  color: $color;
+}
+
+.main-form {
+  input,
+  textarea {
+    &:focus {
+      border: 1px solid $color;
+    }
+  }
+  button {
+    background-color: $color;
+  }
+  .text-danger {
+    color: $color;
+  }
+}
+
+footer {
+  .social-wrap {
+    i {
+      &:hover {
+        color: $color;
+      }
+    }
+  }
+}
